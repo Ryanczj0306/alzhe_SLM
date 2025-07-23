@@ -1,0 +1,11 @@
+# --- Core data & API ---
+kaggle>=1.6.6          # 调用 Kaggle API 下载数据
+requests>=2.31.0       # 备用 HTTP 下载
+
+# --- Data processing ---
+pandas>=2.0.0          # 读取与清洗 CSV
+tqdm>=4.65.0           # 下载与迭代进度条
+
+# --- 可选：若后续想直接加载到 HuggingFace Datasets ---
+# datasets>=2.19.0
+# pyarrow>=14.0.0
